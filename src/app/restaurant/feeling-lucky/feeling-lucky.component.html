@@ -7,10 +7,29 @@
     <mat-list class="vegan-app" *ngIf="meal$ | async as meal">
       <mat-list-item>
         <div class="description">
-          <img class="meal-image" [src]="meal.image" alt="" />
-          <span class="name" [matTooltip]="meal.description">
-            {{ meal.name }}
-          </span>
+          <ng-container *ngIf="meal.image; else noImg">
+            <img class="meal-image" [src]="meal.image" alt="" />
+          </ng-container>
+          <ng-template #noImg>
+            <img
+              class="meal-image"
+              src="http://www.dirtyapronrecipes.com/wp-content/uploads/2015/10/food-placeholder.png"
+              alt=""
+            />
+          </ng-template>
+
+          <div>
+
+            <p>
+              <span class="name" [matTooltip]="meal.description">
+                {{ meal.name }}
+              </span>
+            </p>
+            
+            <mat-chip-list aria-label="Fish selection">
+              <mat-chip *ngFor="let tag of meal.tags">{{ tag }}</mat-chip>
+            </mat-chip-list>
+          </div>
         </div>
         <span class="cost"> HRK {{ meal.price }} </span>
       </mat-list-item>
