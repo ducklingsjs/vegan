@@ -19,6 +19,16 @@ export enum Cousine {
     BALKAN = "BALKAN",
 }
 
+//meal tag
+export enum MealType {
+    SALAD = "SALAD",
+    SOUP = "SOUP",
+    BURGER = "BURGER",
+    PIZZA = "PIZZA",
+    SUSHI = "SUSHI",
+    WOK = "WOK"
+}
+
 // meal tag
 export enum Taste {
     SPICY = "SPICY",
