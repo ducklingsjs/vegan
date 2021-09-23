@@ -1,6 +1,258 @@
 {
     "restaurants": [
-        {
+      {
+        "name": "OMMA 한식당 . Korejski Restoran",
+        "address": "Unska 2B, 10000 Zagreb",
+        "description": "We offer a fusion of Asian, Korean and Japanese cuisine",
+        "openingHours": [
+          {
+            "from": 11,
+            "to": 20,
+            "dayInWeek": "MON"
+          },
+          {
+            "from": 11,
+            "to": 20,
+            "dayInWeek": "TUE"
+          },
+          {
+            "from": 11,
+            "to": 20,
+            "dayInWeek": "WED"
+          },
+          {
+            "from": 11,
+            "to": 20,
+            "dayInWeek": "THU"
+          },
+          {
+            "from": 11,
+            "to": 20,
+            "dayInWeek": "FRI"
+          },
+          {
+            "from": 11,
+            "to": 18,
+            "dayInWeek": "SAT"
+          }
+        ],
+        "tags": [
+          "BAMBILIKES",
+          "KOREAN"
+        ],
+        "averageDeliveryTime": 60,
+        "meals": [
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Gang Jeong",
+            "description": "Pržena pileća krilca uz povrće iz woka (mladi luk, sezam, kikiriki) u slatkom umaku od majoneze, češnjaka i chilija s rižom",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3e869d08-f894-11e8-a835-0a586463944f_Gang_jeong.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Je Yuk",
+            "description": "Carsko meso, svinjski vrat, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/6cc6ca86-f893-11e8-a992-0a5864600a05_Jeyuk.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Teriyaki",
+            "description": "Pileća krilca, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/8f653ffa-f893-11e8-ada8-0a58646396c7_Teryaki.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Valjušci",
+            "description": "Valjušci od rižinog brašna s mljevenim junećim mesom i povrćem, sadrži gluten. 6 komada",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/f1e7ebfc-1a38-11e9-b0f3-0a5864625608_Omma_product-6254.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Proljetne rolice",
+            "description": "Povrće, slatki chili umak, 6 komada",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/a09a5600-53d5-11e9-8d51-0a5864647a0e_Omma_product-8356.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Kimchi palačinka",
+            "description": "Palačinka od kimchija i luka poslužena sa sojinim umakom i sezamom. 2 komada, srednje ljuto",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/13c04d4e-f7b3-11e8-bb1f-0a5864641d0a_Omma_product_10.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Kimchi",
+            "description": "Jedna porcija",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/f98b84b0-a747-11eb-aa77-ae8ae1c8c124_wolt_omma_reshoot_23.04.2021_product_7.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Bulgogi",
+            "description": "Juneći vrat, luk, mladi luk, šampinjoni, mrkva, umak od sezama i soje u woku. Nije ljuto",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/347f47e4-f892-11e8-90f7-0a5864600707_Bulgogi.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Je Yuk",
+            "description": "Carsko meso, svinjski vrat, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/6cc6ca86-f893-11e8-a992-0a5864600a05_Jeyuk.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Teriyaki",
+            "description": "Pileća krilca, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/8f653ffa-f893-11e8-ada8-0a58646396c7_Teryaki.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE",
+              "VEGETERIAN"
+            ],
+            "name": "Vegetarijanski wok",
+            "description": "Sezonsko povrće, ulje, sezam",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/cf9a728e-53dd-11e9-8d75-0a5864647f0b_Omma_product-8344.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Gal Bi Grill ",
+            "description": "Svinjska vratina 250g s roštilja, luk, senf, riža, sezam",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/de61f44a-ff2b-11ea-a4e8-7e413e87c6cd_omma_reshoot_product_5.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Gang Jeong",
+            "description": "Pržena pileća krilca uz povrće iz woka (mladi luk, sezam, kikiriki) u slatkom umaku od majoneze, češnjaka i chilija s rižom",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3e869d08-f894-11e8-a835-0a586463944f_Gang_jeong.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Mapa tofu",
+            "description": "Tofu, luk, mladi luk, mrkva, umak od soje i češnjaka u woku s rižom. Blago ljuto",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d6c94a5c-f894-11e8-a982-0a586463dcb4_Mapa_tofu.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Jja jang bab",
+            "description": "Svinjski vrat, luk, zelje, mladi luk, umak od crnog graha u woku s rižom. Nije ljuto",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/f095a076-f893-11e8-ad8d-0a586463da7a_JJA_JANG_BAB.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Jeyuk Bokkeum",
+            "description": "Svinjetina s povrćem u woku, velika porcija",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/d6574cfe-a747-11eb-a05f-3ae82f3da374_wolt_omma_reshoot_23.04.2021_product_1.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Bulgogi grill",
+            "description": "Bulgogi velika porcija, riža ili stakleni rezanci po izboru",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/4dbaac4c-a747-11eb-be04-fe54f392d5c8_wolt_omma_reshoot_23.04.2021_product_3.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Chicken Katsudon - Katsudon piletina",
+            "description": "Pohani pileći odrezak s povrćem i klicama",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/a77c3548-a747-11eb-ac72-4638c30cdfb1_wolt_omma_reshoot_23.04.2021_product_6.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Pork Katsudon - Katsudon svinjetina",
+            "description": "Pohani svinjski odrezak s povrćem i klicama",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/c5aa4802-a747-11eb-a8ee-b2517c06f1aa_wolt_omma_reshoot_23.04.2021_product_5.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Gal Bi",
+            "description": "Svinjetina s roštilja, luk, senf, riža, sezam",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/ee49bba4-ff2b-11ea-a10a-4ae7eb920e6d_omma_reshoot_product_3.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Piletina u-dong",
+            "description": "Piletina, japanski debeli rezanci, povrće, sezam, umak od kamenica",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/00013f04-53d7-11e9-be6d-0a586464750b_Omma_product-8315.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Bulgogi u-dong ",
+            "description": "Junetina, japanski debeli rezanci, povrće, sezam, umak na bazi soje, šampinjoni",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d0fe44cc-53d6-11e9-9302-0a586464071f_Omma_product-8297.jpeg"
+          },
+          {
+            "tags": [
+              "EXPENSIVE"
+            ],
+            "name": "Tofu u-dong ",
+            "description": "Tofu, japanski debeli rezanci, povrće, sezam, umak na bazi soje",
+            "price": 55,
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/a0056bde-53d6-11e9-a48e-0a5864648403_Omma_product-8320.jpeg"
+          }
+        ]
+      },
+      {
             "name": "OMMA 한식당 . Korejski Restoran",
             "address": "Unska 2B, 10000 Zagreb",
             "description": "We offer a fusion of Asian, Korean and Japanese cuisine",
