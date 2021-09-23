@@ -8,7 +8,7 @@ const restaurantInfo = {
     { from: 11, to: 18, dayInWeek: "SAT" },
   ],
   averageDeliveryTime: 45,
-  tags: ["BAMBILIKES", "KOREAN"],
+  tags: ["BAMBILIKES", "ASIAN"],
 };
 
 const sectionInfo = [
