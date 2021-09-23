@@ -1,0 +1,28 @@
+.title {
+  margin: 0;
+}
+
+.address {
+  color: #8e8e8e;
+}
+
+.cost {
+  white-space: nowrap;
+}
+
+.restaurant + .restaurant {
+  margin-top: 24px;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.meal-image {
+  max-width: 200px;
+  height: auto;
+  padding: 5px 0;
+}

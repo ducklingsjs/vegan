@@ -1,6 +1,6 @@
 <app-container>
-  <h2>{{ question.title }}</h2>
-  <mat-selection-list #opts [multiple]="false">
+  <h2 :class="title">{{ question.title }}</h2>
+  <mat-selection-list #opts [multiple]="false" :class="options-container">
     <mat-list-option *ngFor="let opt of question.options" [value]="opt">
       {{ opt }}
     </mat-list-option>
