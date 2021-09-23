@@ -1,6 +1,6 @@
 <app-container>
-  <p *ngIf="questionarre$ | async">
-    You filled in questionarre, your results are personalized.
+  <p :class="result-msg" *ngIf="questionarre$ | async">
+    You filled in questionnaire, your results are personalized.
   </p>
   <section class="restaurant" *ngFor="let restaurant of restaurants$ | async">
     <h2 class="title">{{ restaurant.name }}</h2>
