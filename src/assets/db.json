@@ -4,6 +4,7 @@
         "name": "OMMA 한식당 . Korejski Restoran",
         "address": "Unska 2B, 10000 Zagreb",
         "description": "We offer a fusion of Asian, Korean and Japanese cuisine",
+        "isDelivering": true,
         "openingHours": [
           {
             "from": 11,
@@ -256,6 +257,7 @@
             "name": "OMMA 한식당 . Korejski Restoran",
             "description": "We offer a fusion of Asian, Korean and Japanese cuisine",
             "address": "Unska 2B, 10000 Zagreb",
+            "isDelivering": true,
             "openingHours": [
                 {
                     "from": 11,
@@ -461,6 +463,7 @@
             "name": "Good Food - Palmotićeva",
             "description": "Good food for good people\n*Company invoicing is not possible ☹\n*Food modification is unfortunately not possible",
             "address": "Palmotićeva 2, 10000 Zagreb",
+            "isDelivering": true,
             "openingHours": [
                 {
                     "from": 10,
@@ -693,6 +696,7 @@
             "name": "Submarine Burger - Radnička",
             "description": "Officially one of the top burgers in the world, try it and see for yourself",
             "address": "Radnička cesta 34, 10000 Zagreb",
+            "isDelivering": true,
             "openingHours": [
                 {
                     "from": 11,
