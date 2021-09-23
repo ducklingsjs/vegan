@@ -12,9 +12,8 @@ export enum SpecialRestaurantTag {
 // restaurant tag (for MVP)
 export enum Cousine {
     ITALIAN = "ITALIAN",
-    KOREAN = "KOREAN",
     MEXICAN = "MEXICAN",
-    CHINESE = "CHINESE",
+    ASIAN = "ASIAN",
     INDIAN = "INDIAN",
     BALKAN = "BALKAN",
 }

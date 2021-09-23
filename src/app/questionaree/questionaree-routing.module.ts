@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FinishLineComponent } from './finish-line/finish-line.component';
 import { QuestionComponent } from './question/question.component';
 import { QuestionareeComponent } from './questionaree.component';
 
@@ -9,6 +10,9 @@ const routes: Routes = [{
 }, {
   path: 'question/:index',
   component: QuestionComponent,
+}, {
+  path: 'finish-line',
+  component: FinishLineComponent,
 }];
 
 @NgModule({

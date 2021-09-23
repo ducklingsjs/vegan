@@ -254,8 +254,8 @@
       },
       {
             "name": "OMMA 한식당 . Korejski Restoran",
-            "address": "Unska 2B, 10000 Zagreb",
             "description": "We offer a fusion of Asian, Korean and Japanese cuisine",
+            "address": "Unska 2B, 10000 Zagreb",
             "openingHours": [
                 {
                     "from": 11,
@@ -288,220 +288,668 @@
                     "dayInWeek": "SAT"
                 }
             ],
+            "averageDeliveryTime": 45,
             "tags": [
                 "BAMBILIKES",
-                "KOREAN"
+                "ASIAN"
             ],
-            "averageDeliveryTime": 60,
             "meals": [
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Bulgogi",
+                        "description": "Juneći vrat, luk, mladi luk, šampinjoni, mrkva, umak od sezama i soje u woku. Nije ljuto",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/347f47e4-f892-11e8-90f7-0a5864600707_Bulgogi.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Je Yuk",
+                        "description": "Carsko meso, svinjski vrat, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/6cc6ca86-f893-11e8-a992-0a5864600a05_Jeyuk.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Teriyaki",
+                        "description": "Pileća krilca, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/8f653ffa-f893-11e8-ada8-0a58646396c7_Teryaki.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "VEGETERIAN",
+                            "WOK"
+                        ],
+                        "name": "Vegetarijanski wok",
+                        "description": "Sezonsko povrće, ulje, sezam",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/cf9a728e-53dd-11e9-8d75-0a5864647f0b_Omma_product-8344.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Gal Bi Grill ",
+                        "description": "Svinjska vratina 250g s roštilja, luk, senf, riža, sezam",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/de61f44a-ff2b-11ea-a4e8-7e413e87c6cd_omma_reshoot_product_5.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Gang Jeong",
+                        "description": "Pržena pileća krilca uz povrće iz woka (mladi luk, sezam, kikiriki) u slatkom umaku od majoneze, češnjaka i chilija s rižom",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3e869d08-f894-11e8-a835-0a586463944f_Gang_jeong.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Mapa tofu",
+                        "description": "Tofu, luk, mladi luk, mrkva, umak od soje i češnjaka u woku s rižom. Blago ljuto",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d6c94a5c-f894-11e8-a982-0a586463dcb4_Mapa_tofu.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Jja jang bab",
+                        "description": "Svinjski vrat, luk, zelje, mladi luk, umak od crnog graha u woku s rižom. Nije ljuto",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/f095a076-f893-11e8-ad8d-0a586463da7a_JJA_JANG_BAB.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "WOK"
+                        ],
+                        "name": "Jeyuk Bokkeum",
+                        "description": "Svinjetina s povrćem u woku, velika porcija",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/d6574cfe-a747-11eb-a05f-3ae82f3da374_wolt_omma_reshoot_23.04.2021_product_1.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Bulgogi grill",
+                        "description": "Bulgogi velika porcija, riža ili stakleni rezanci po izboru",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/4dbaac4c-a747-11eb-be04-fe54f392d5c8_wolt_omma_reshoot_23.04.2021_product_3.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Chicken Katsudon - Katsudon piletina",
+                        "description": "Pohani pileći odrezak s povrćem i klicama",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/a77c3548-a747-11eb-ac72-4638c30cdfb1_wolt_omma_reshoot_23.04.2021_product_6.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Pork Katsudon - Katsudon svinjetina",
+                        "description": "Pohani svinjski odrezak s povrćem i klicama",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/c5aa4802-a747-11eb-a8ee-b2517c06f1aa_wolt_omma_reshoot_23.04.2021_product_5.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Gal Bi",
+                        "description": "Svinjetina s roštilja, luk, senf, riža, sezam",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/ee49bba4-ff2b-11ea-a10a-4ae7eb920e6d_omma_reshoot_product_3.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Piletina u-dong",
+                        "description": "Piletina, japanski debeli rezanci, povrće, sezam, umak od kamenica",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/00013f04-53d7-11e9-be6d-0a586464750b_Omma_product-8315.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Bulgogi u-dong ",
+                        "description": "Junetina, japanski debeli rezanci, povrće, sezam, umak na bazi soje, šampinjoni",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d0fe44cc-53d6-11e9-9302-0a586464071f_Omma_product-8297.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Tofu u-dong ",
+                        "description": "Tofu, japanski debeli rezanci, povrće, sezam, umak na bazi soje",
+                        "price": 55,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/a0056bde-53d6-11e9-a48e-0a5864648403_Omma_product-8320.jpeg"
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Good Food - Palmotićeva",
+            "description": "Good food for good people\n*Company invoicing is not possible ☹\n*Food modification is unfortunately not possible",
+            "address": "Palmotićeva 2, 10000 Zagreb",
+            "openingHours": [
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Gang Jeong",
-                    "description": "Pržena pileća krilca uz povrće iz woka (mladi luk, sezam, kikiriki) u slatkom umaku od majoneze, češnjaka i chilija s rižom",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3e869d08-f894-11e8-a835-0a586463944f_Gang_jeong.jpeg"
+                    "from": 10,
+                    "to": 23,
+                    "dayInWeek": "MON"
                 },
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Je Yuk",
-                    "description": "Carsko meso, svinjski vrat, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/6cc6ca86-f893-11e8-a992-0a5864600a05_Jeyuk.jpeg"
+                    "from": 10,
+                    "to": 23,
+                    "dayInWeek": "TUE"
                 },
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Teriyaki",
-                    "description": "Pileća krilca, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/8f653ffa-f893-11e8-ada8-0a58646396c7_Teryaki.jpeg"
+                    "from": 10,
+                    "to": 23,
+                    "dayInWeek": "WED"
                 },
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Valjušci",
-                    "description": "Valjušci od rižinog brašna s mljevenim junećim mesom i povrćem, sadrži gluten. 6 komada",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/f1e7ebfc-1a38-11e9-b0f3-0a5864625608_Omma_product-6254.jpeg"
+                    "from": 10,
+                    "to": 23,
+                    "dayInWeek": "THU"
                 },
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Proljetne rolice",
-                    "description": "Povrće, slatki chili umak, 6 komada",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/a09a5600-53d5-11e9-8d51-0a5864647a0e_Omma_product-8356.jpeg"
+                    "from": 10,
+                    "to": 23,
+                    "dayInWeek": "FRI"
                 },
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Kimchi palačinka",
-                    "description": "Palačinka od kimchija i luka poslužena sa sojinim umakom i sezamom. 2 komada, srednje ljuto",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/13c04d4e-f7b3-11e8-bb1f-0a5864641d0a_Omma_product_10.jpeg"
+                    "from": 10,
+                    "to": 23,
+                    "dayInWeek": "SAT"
                 },
                 {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Kimchi",
-                    "description": "Jedna porcija",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/f98b84b0-a747-11eb-aa77-ae8ae1c8c124_wolt_omma_reshoot_23.04.2021_product_7.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Bulgogi",
-                    "description": "Juneći vrat, luk, mladi luk, šampinjoni, mrkva, umak od sezama i soje u woku. Nije ljuto",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/347f47e4-f892-11e8-90f7-0a5864600707_Bulgogi.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Je Yuk",
-                    "description": "Carsko meso, svinjski vrat, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/6cc6ca86-f893-11e8-a992-0a5864600a05_Jeyuk.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Teriyaki",
-                    "description": "Pileća krilca, luk, mladi luk, zelje, mrkva, sezam, umak u woku s rižom",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/8f653ffa-f893-11e8-ada8-0a58646396c7_Teryaki.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE",
-                        "VEGETERIAN"
-                    ],
-                    "name": "Vegetarijanski wok",
-                    "description": "Sezonsko povrće, ulje, sezam",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/cf9a728e-53dd-11e9-8d75-0a5864647f0b_Omma_product-8344.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Gal Bi Grill ",
-                    "description": "Svinjska vratina 250g s roštilja, luk, senf, riža, sezam",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/de61f44a-ff2b-11ea-a4e8-7e413e87c6cd_omma_reshoot_product_5.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Gang Jeong",
-                    "description": "Pržena pileća krilca uz povrće iz woka (mladi luk, sezam, kikiriki) u slatkom umaku od majoneze, češnjaka i chilija s rižom",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3e869d08-f894-11e8-a835-0a586463944f_Gang_jeong.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Mapa tofu",
-                    "description": "Tofu, luk, mladi luk, mrkva, umak od soje i češnjaka u woku s rižom. Blago ljuto",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d6c94a5c-f894-11e8-a982-0a586463dcb4_Mapa_tofu.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Jja jang bab",
-                    "description": "Svinjski vrat, luk, zelje, mladi luk, umak od crnog graha u woku s rižom. Nije ljuto",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/f095a076-f893-11e8-ad8d-0a586463da7a_JJA_JANG_BAB.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Jeyuk Bokkeum",
-                    "description": "Svinjetina s povrćem u woku, velika porcija",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/d6574cfe-a747-11eb-a05f-3ae82f3da374_wolt_omma_reshoot_23.04.2021_product_1.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Bulgogi grill",
-                    "description": "Bulgogi velika porcija, riža ili stakleni rezanci po izboru",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/4dbaac4c-a747-11eb-be04-fe54f392d5c8_wolt_omma_reshoot_23.04.2021_product_3.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Chicken Katsudon - Katsudon piletina",
-                    "description": "Pohani pileći odrezak s povrćem i klicama",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/a77c3548-a747-11eb-ac72-4638c30cdfb1_wolt_omma_reshoot_23.04.2021_product_6.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Pork Katsudon - Katsudon svinjetina",
-                    "description": "Pohani svinjski odrezak s povrćem i klicama",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/c5aa4802-a747-11eb-a8ee-b2517c06f1aa_wolt_omma_reshoot_23.04.2021_product_5.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Gal Bi",
-                    "description": "Svinjetina s roštilja, luk, senf, riža, sezam",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c05157dd1ae33000c79cf64/ee49bba4-ff2b-11ea-a10a-4ae7eb920e6d_omma_reshoot_product_3.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Piletina u-dong",
-                    "description": "Piletina, japanski debeli rezanci, povrće, sezam, umak od kamenica",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/00013f04-53d7-11e9-be6d-0a586464750b_Omma_product-8315.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Bulgogi u-dong ",
-                    "description": "Junetina, japanski debeli rezanci, povrće, sezam, umak na bazi soje, šampinjoni",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d0fe44cc-53d6-11e9-9302-0a586464071f_Omma_product-8297.jpeg"
-                },
-                {
-                    "tags": [
-                        "EXPENSIVE"
-                    ],
-                    "name": "Tofu u-dong ",
-                    "description": "Tofu, japanski debeli rezanci, povrće, sezam, umak na bazi soje",
-                    "price": 55,
-                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/a0056bde-53d6-11e9-a48e-0a5864648403_Omma_product-8320.jpeg"
+                    "from": 12,
+                    "to": 23,
+                    "dayInWeek": "SUN"
                 }
+            ],
+            "averageDeliveryTime": 30,
+            "tags": [],
+            "meals": [
+                [
+                    {
+                        "tags": [
+                            "SALAD"
+                        ],
+                        "name": "Simply Caesar salata",
+                        "description": "Piletina, romana salata, kristal salata, grana padano, pržena panceta, cherry rajčice, krutoni, domaći Cezar umak (majoneza, senf, kapari, peršin, inćuni, pržena panceta, sol, papar)",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/c050a51a-e962-11eb-9f27-f6c6f25727cc_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_13.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "SALAD"
+                        ],
+                        "name": "Crispy in Love salata",
+                        "description": "Panirani pileći odrezak, avokado, jaje, cheddar sir, rajčica, kristal salata, proljetni umak (majoneza, jogurt, luk, vlasac, crvena paprika)",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/cd2c1558-e962-11eb-8647-92afcdf381c9_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_15.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "SALAD"
+                        ],
+                        "name": "Steak All Mighty salata",
+                        "description": "Ramstek 120g, crveni radič, kristal salata, rikula, pečena cikla, cherry rajčice, feta sir, bademi, brusnica, naranča, domaći steak umak (senf, majoneza, med, cijeđena naranča, jabučni ocat, sol, papar)",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/396f4a0a-e963-11eb-bae4-5eb737b0c852_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_23.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "SALAD"
+                        ],
+                        "name": "Tiger's garden salad",
+                        "description": "Panirane kozice, kristal salata, crveni radič, rikula u aceto balsamicu, mini rajčica, šipak, avokado, krastavac, naranča, badem, wasabi umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/dac13fa4-e962-11eb-8e27-6e5262b59536_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_17.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "SALAD"
+                        ],
+                        "name": "Alpha & Omega salad",
+                        "description": "Pileći file, kristal salata, crveni radič, rikula u aceto balsamicu, sol, papar, kapari, masline, ljubičasti luk, mini rajčica, origano, grčki umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/ef5c665a-e962-11eb-86ef-c696f5571687_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_19.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [],
+                        "name": "Memoirs of a Geisha",
+                        "description": "Riža, marinirana piletina 140g, sušene rajčice, brokula, tikvice, mrkva, bademi, domaći mango umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/6620eb08-e963-11eb-bdc6-964891b5018d_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_27.jpeg"
+                    },
+                    {
+                        "tags": [],
+                        "name": "Desperado bowl",
+                        "description": "Jasmin riža, crispy piletina, zelena salata, paprika, mini rajčica, kukuruz, grah, ljubičasti luk, jalapeno papričice, cheddar sir, cezar umak, avokado",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/b8d73276-e963-11eb-8bf5-5a49d5213107_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_29.jpeg"
+                    },
+                    {
+                        "tags": [],
+                        "name": "The Last Samurai bowls",
+                        "description": "Jasmin riža, panirane kozice, edamame, paprika, mrkva, rikula u aceto balsamicu i  maslinovom ulju, ljubičasti luk, mini rajčica, limeta, rotkvica, marinirani đumbir, kikiriki posip, korijander, asian umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/470114d2-e963-11eb-8c1a-b6103ffd6ad7_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_25.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "MEXICAN"
+                        ],
+                        "name": "Beef cheeks tortilla",
+                        "description": "Juneći obrazi, grana padano, crispy luk, zelena salata, mini rajčica, hren, kiselo vrhnje",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/75c198c4-e962-11eb-bcea-7222ec2fcfdd_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_10.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "MEXICAN"
+                        ],
+                        "name": "Beef tortilla",
+                        "description": "Beef, cheddar sir, gljive, paprika, prženi luk, salata, domaći steak umak (senf, majoneza, med, cijeđena naranča, jabučni ocat, sol, papar)",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/541fbf2a-e962-11eb-baf5-8ad764646007_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_8.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "MEXICAN"
+                        ],
+                        "name": "Teriyaki chicken tortilla",
+                        "description": "Pileći file u teriyaki marinadi, brokula, kristal salata, mrkva, kukuruz, Cheddar sir, domaći wasabi umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/5eda860c-e962-11eb-be19-da47b64b15ce_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_9.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "MEXICAN"
+                        ],
+                        "name": "Mexican tortilla",
+                        "description": "Crispy piletina, cheddar sir, zelena salata, kiselo vrhnje, domaći meksički mix",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/3d0159f2-e962-11eb-999c-ae819bd5f3e0_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_6.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "MEXICAN"
+                        ],
+                        "name": "Greek tortilla new",
+                        "description": "Pileći file, tortilla, iceberg salata, crveni radič, rikula, aceto krema, mini rajčica,  grčki umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/460b60c4-e962-11eb-a8a4-8ad764646007_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_7.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "BURGER"
+                        ],
+                        "name": "Double Trouble",
+                        "description": "Juneća pljeskavica 100%, cheddar sir, pržena panceta, prženi luk, iceberg salata, cocktail dressing",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/c704ec0a-e961-11eb-ba4f-520868aa1945_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_1.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "BURGER"
+                        ],
+                        "name": "Avocado Chic(k)",
+                        "description": "Crispy piletina, avokado, rikula, cheddar sir, mango umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/f2cdce06-e961-11eb-a9f5-f6c6f25727cc_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_3.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "BURGER"
+                        ],
+                        "name": "Gourmet 42 burger",
+                        "description": "100 % domaće juneće meso odležano 42 dana, pecivo, cheddar sir, karamelizirani luk, sol, papar, gf umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/054c5746-e962-11eb-8953-da47b64b15ce_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_4.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "VEGETERIAN"
+                        ],
+                        "name": "Fit & Fabulous",
+                        "description": "Kvinoja falafel, rikula, špinat, salata romana, cherry rajčice, mrkva, kukuruz, limu-limeta umak (limun, limeta, maslinovo ulje, med, sol, papar)",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/138b2fd4-e963-11eb-8579-16a1fe4c1263_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_21.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "VEGETERIAN"
+                        ],
+                        "name": "V is for Veggie (grčki)",
+                        "description": "Vege burger, rikula, crveni luk, mrkva, svježi krastavci, homemade grčki umak",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/df089c66-e961-11eb-adc3-8ad764646007_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_2.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "VEGETERIAN"
+                        ],
+                        "name": "V is for Veggie (vege mayo)",
+                        "description": "Vege burger, rikula, crveni luk, mrkva, svježi krastavci, veganska majoneza",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ca8c77d139712000e02be35/e4997de4-e961-11eb-9dbe-ae819bd5f3e0_wolt_good_food_palmotic_eva_shoot_15.07.2021_product_2.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "SOUP"
+                        ],
+                        "name": "Juha od tikvica",
+                        "description": "Tikvica, mrkva, luk, maslinovo ulje, sol, papar",
+                        "price": 43,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/972d7424-5b75-11e9-aeae-0a586460440c_GoodFood_product-1994.jpeg"
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Submarine Burger - Radnička",
+            "description": "Officially one of the top burgers in the world, try it and see for yourself",
+            "address": "Radnička cesta 34, 10000 Zagreb",
+            "openingHours": [
+                {
+                    "from": 11,
+                    "to": 22,
+                    "dayInWeek": "MON"
+                },
+                {
+                    "from": 11,
+                    "to": 22,
+                    "dayInWeek": "TUE"
+                },
+                {
+                    "from": 11,
+                    "to": 22,
+                    "dayInWeek": "WED"
+                },
+                {
+                    "from": 11,
+                    "to": 22,
+                    "dayInWeek": "THU"
+                },
+                {
+                    "from": 11,
+                    "to": 23,
+                    "dayInWeek": "FRI"
+                },
+                {
+                    "from": 11,
+                    "to": 23,
+                    "dayInWeek": "SAT"
+                },
+                {
+                    "from": 12,
+                    "to": 18,
+                    "dayInWeek": "SUN"
+                }
+            ],
+            "averageDeliveryTime": 45,
+            "tags": [],
+            "meals": [
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER"
+                        ],
+                        "name": "Monster",
+                        "description": "Suoči se sa zvijeri: Četverostruka doza junetine iz lokalnog uzgoja, Special Submarine umak, svježa zelena salata, grilani topljeni sir, dimljena dalmatinska panceta i BBQ mayo umak",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/d0a5559e-8c80-11eb-81d6-9adc06e40b9e_monster.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER"
+                        ],
+                        "name": "Sliders",
+                        "description": "Probaj tri mini verzije naših najpopularnijih burgera: Original, Italian i Smokehouse, uvijek svježe i bez aditiva",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/edcc2058-8c80-11eb-838f-c64067845ecb_sliders.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER"
+                        ],
+                        "name": "French",
+                        "description": "O la la, koji burrrger: 100% prirodni burger od junetine iz lokalnog uzgoja, svježa rukola, brie sir i gurmanski umak od istarskog bijelog tartufa",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/b1762e82-8c80-11eb-9b05-ea456e001989_french.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER"
+                        ],
+                        "name": "Italian",
+                        "description": "Gurmanski burger od junetine iz lokalnog uzgoja, svježa rukola, listići Grana Padano sira i Pesto Genovese aioli",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/c4b9387c-8c80-11eb-bccb-1ea07a5f6d60_italian.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER"
+                        ],
+                        "name": "Smokehouse",
+                        "description": "Gdje ima dima, ima i vatre: 100% prirodni burger od junetine iz lokalnog uzgoja, svježa zelena salata, dimljena dalmatinska panceta, grilani dimljeni sir, BBQ i BBQ mayo umak",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/f98d6212-8c80-11eb-8147-1a4a349a729c_smokehouse.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER"
+                        ],
+                        "name": "Original",
+                        "description": "Budi originalan. 100% prirodni burger od junetine iz lokalnog uzgoja, svježa zelena salata, grilani topljeni sir, listići kiselog krastavca i Special Submarine umak",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/e5e430c4-8c80-11eb-a7bc-9e59629fd693_original.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER",
+                            "VEGAN"
+                        ],
+                        "name": "Original Vegan",
+                        "description": "Pripazi na karmu uz naš bezgrešni burger: Svježa rukola, veganski Pesto Genovese aioli,\nhandmade BIO/organska pljeskavica od lokalnog povrća i veganski Special Submarine umak.",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/1afa2aae-b164-11eb-b1c3-56eaed6c5c05_original_veggie.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER",
+                            "VEGAN"
+                        ],
+                        "name": "Avocado Vegan",
+                        "description": "Vegan verzija koja oduševljava: Avokado, veganski Special Submarine umak i dimljeni tofu na handmade BIO/organskoj pljeskavici od lokalnog povrća, svježa rukola.",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/53b4013a-b164-11eb-b103-9aecea376626_avocado_veggie.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER",
+                            "VEGAN"
+                        ],
+                        "name": "Truffle Vegan Burger",
+                        "description": "Posebno atraktivna kombinacija: Svježa rukola i grilani komadići kruške na handmade\nBIO/organskoj pljeskavici od lokalnog povrća, ručno mrvljeni orasi i veganski gurmanski\numak od istarskog bijelog tartufa.",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/667b3cca-b164-11eb-8c6d-96051fe93059_truffle_vegan_burger.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER",
+                            "VEGAN"
+                        ],
+                        "name": "Superfood Vegan Burger",
+                        "description": "Super zelena formula:  Svježi baby špinat sa slanutkom i klicama rotkvice na handmade\nBIO/organskoj pljeskavici od lokalnog povrća, veganski Special Submarine umak.",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/7d55abe2-b164-11eb-b021-3e6c6b984baf_superfood_vegan_burger.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "BURGER",
+                            "VEGAN"
+                        ],
+                        "name": "Vegan Sliders",
+                        "description": "Tri najpopularnija veganska burgera u mini verziji: Original Vegan, Truffle Vegan i Superfood\nVegan Burger.",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/8d884c4a-b164-11eb-93cc-f2c1b2a1f2ac_vegan_sliders.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Truffle Grana Padano",
+                        "description": "Profinjeni, do savršenstva isprženi krumpirići s gurmanskim umakom od bijelog istarskog tartufa i listićima Grana Padano",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/576fd680-8c81-11eb-aa1b-0affeb1c2fca_truffle_grana_padano.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Salchipapas",
+                        "description": "Krumpirići s komadićima domaće dimljene kobasice od crne slavonske svinje i BBQ mayo umakom",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/61abe652-8c81-11eb-a88e-72983f5c1b89_salchipapas.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Cheese Style",
+                        "description": "Ručno narezani krumpirići s grilanim topljenim sirom i preliveni domaćim Submarine umakom",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/6a9ee02a-8c81-11eb-8109-9e59629fd693_cheese_style.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE"
+                        ],
+                        "name": "Classic",
+                        "description": "Kad su sve što želiš vrući i slani krumpirići, ne traži dalje: naši krumpirići su svježe rezani i prženi te nikad smrzavani",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/83c3dace-8c81-11eb-8501-66f72d0be6db_classic.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "SALAD"
+                        ],
+                        "name": "Submarine Caesar s piletinom",
+                        "description": "Svježi listići baby špinata, kelja i blitve s komadićima integralnih brusketa i Submarine Special umkom, prekrivena s Grana Padano sirom, piletinom i klicama rotkvice, veličina po izboru",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/e88a90c4-8c81-11eb-a9c8-ea470cab4f52_submarine_caesar.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "SALAD"
+                        ],
+                        "name": "Avocado Chicken Caprese",
+                        "description": "Svježi avokado i grilana piletina na miješanoj salati, cherry rajčici i mozzarelli s Pesto Genovese umakom",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/f269ea7c-8c81-11eb-8ad2-6e8b87e42abd_avocado_chicken_caprese.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "SALAD"
+                        ],
+                        "name": "Submarine Caesar",
+                        "description": "Svježi listići baby špinata, kelja i blitve s komadićima integralnih brusketa i Submarine Special umkom, prekrivena s Grana Padano sirom i klicama rotkvice, veličina po izboru",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/fd30e456-8c81-11eb-a7bc-9e59629fd693_submarine_caesar.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "SALAD"
+                        ],
+                        "name": "California Dream",
+                        "description": "Svježi baby špinat i mozzarella u kombinaciji iz snova: slanutak, Pesto Genovese aioli, domaće jaje te sjemenke konoplje",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5d36d364a96090b552677b26/0652ef48-8c82-11eb-a133-d29a93155641_california_dream.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "SALAD"
+                        ],
+                        "name": "Submarine Greek Summer Salad",
+                        "description": "Svježi komadići krastavca i cherry rajčice s feta sirom, slanutkom i crnim maslinama,\nupotpunjeni limunovim sokom i aromatičnim origanom",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/9f4e7760-b164-11eb-a3c6-2e6db5aa491e_submarine_greek_summer.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "EXPENSIVE",
+                            "SALAD"
+                        ],
+                        "name": "Submarine Greek Summer Salad - s piletinom",
+                        "description": "Grilana piletina, svježi komadići krastavca i cherry rajčice s feta sirom, slanutkom i crnim\nmaslinama, upotpunjeni limunovim sokom i aromatičnim origanom",
+                        "price": 68,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/ad7eedc4-b164-11eb-881f-f2ed728396b6_submarine_greek_summer___s_piletinom.jpeg"
+                    }
+                ]
             ]
         }
     ]
