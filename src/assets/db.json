@@ -38,8 +38,9 @@
             ],
             "tags": [
                 "BAMBILIKES",
-                "DELIVERY"
+                "KOREAN"
             ],
+            "averageDeliveryTime": 60,
             "meals": [
                 {
                     "tags": [
@@ -253,4 +254,3 @@
         }
     ]
 }
-

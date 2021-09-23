@@ -6,11 +6,11 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./questionaree.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class QuestionareeComponent implements OnInit {
+export class QuestionareeComponent {
 
   constructor() { }
 
-  ngOnInit(): void {
+  start(): void {
+    alert('started');
   }
-
 }

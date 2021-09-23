@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { QuestionareeRoutingModule } from './questionaree-routing.module';
 import { QuestionareeComponent } from './questionaree.component';
+import { MatButtonModule } from '@angular/material/button';
+import { ContainerModule } from '../components/container/container.module';
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { QuestionareeComponent } from './questionaree.component';
   ],
   imports: [
     CommonModule,
-    QuestionareeRoutingModule
+    QuestionareeRoutingModule,
+    MatButtonModule,
+    ContainerModule,
   ]
 })
 export class QuestionareeModule { }
