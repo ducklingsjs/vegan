@@ -6,14 +6,10 @@ import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter, OnInit
   styleUrls: ['./multi.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MultiComponent implements OnInit {
+export class MultiComponent {
   @Input()
   question: any;
 
   @Output()
   answer = new EventEmitter<any>();
-
-  ngOnInit() {
-    console.log(this);
-  }
 }

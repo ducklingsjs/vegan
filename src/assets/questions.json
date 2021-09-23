@@ -1,38 +1,38 @@
 [
-    {
-        "title": "Delivery or in-person?",
-        "options": ["Delivery", "In-person"],
-        "type": "single",
-        "skipable": false
-    },
-    {
-        "title": "Which price range should the meal be?",
-        "options": ["$", "$$", "$$$"],
-        "type": "single",
-        "skipable": true
-    },
-    {
-        "title": "What should the time delivery be?",
-        "options": ["< 30 min", "30-45 min", "45-60 min"],
-        "type": "single",
-        "skipable": true
-    },
-    {
-        "title": "Diet type:", 
-        "options": ["Vegetarian", "Vegan"],
-        "type": "single",
-        "skipable": true
-    },
-    {
-        "title": "Cuisine:",
-        "options": ["ITALIAN", "KOREAN", "MEXICAN", "CHINESE", "INDIAN", "BALKAN"],
-        "type": "multi",
-        "skipable": true
-    }, 
-    {
-        "title": "Bambi in your order?",
-        "options": ["Yes", "No"],
-        "type": "single",
-        "skipable": false
-    }
+  {
+    "title": "Delivery or in-person?",
+    "options": ["Delivery", "In-person"],
+    "type": "single",
+    "skipable": false
+  },
+  {
+    "title": "Which price range should the meal be?",
+    "options": ["$", "$$", "$$$"],
+    "type": "single",
+    "skipable": true
+  },
+  {
+    "title": "What should the time delivery be?",
+    "options": ["< 30 min", "30-45 min", "45-60 min"],
+    "type": "single",
+    "skipable": true
+  },
+  {
+    "title": "Whats diet type:",
+    "options": ["Vegetarian", "Vegan"],
+    "type": "single",
+    "skipable": true
+  },
+  {
+    "title": "What Cuisine do you like:",
+    "options": ["ITALIAN", "KOREAN", "MEXICAN", "CHINESE", "INDIAN", "BALKAN"],
+    "type": "multi",
+    "skipable": true
+  },
+  {
+    "title": "Bambi in your order?",
+    "options": ["Yes", "No"],
+    "type": "single",
+    "skipable": false
+  }
 ]
