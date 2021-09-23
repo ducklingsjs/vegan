@@ -4,6 +4,7 @@
             "name": "OMMA 한식당 . Korejski Restoran",
             "description": "We offer a fusion of Asian, Korean and Japanese cuisine",
             "address": "Unska 2B, 10000 Zagreb",
+            "inPerson": false,
             "openingHours": [
                 {
                     "from": 11,
@@ -209,6 +210,7 @@
             "name": "Good Food - Palmotićeva",
             "description": "Good food for good people\n*Company invoicing is not possible ☹\n*Food modification is unfortunately not possible",
             "address": "Palmotićeva 2, 10000 Zagreb",
+            "inPerson": false,
             "openingHours": [
                 {
                     "from": 10,
@@ -441,6 +443,7 @@
             "name": "Submarine Burger - Radnička",
             "description": "Officially one of the top burgers in the world, try it and see for yourself",
             "address": "Radnička cesta 34, 10000 Zagreb",
+            "inPerson": false,
             "openingHours": [
                 {
                     "from": 11,
@@ -696,6 +699,271 @@
                         "description": "Grilana piletina, svježi komadići krastavca i cherry rajčice s feta sirom, slanutkom i crnim\nmaslinama, upotpunjeni limunovim sokom i aromatičnim origanom",
                         "price": 68,
                         "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/ad7eedc4-b164-11eb-881f-f2ed728396b6_submarine_greek_summer___s_piletinom.jpeg"
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Umami - Branimir Mingle Mall",
+            "description": "Where all five tastes collide and create one and unique Asian fusion experience 🧡\n*Food modification is unfortunately not possible",
+            "address": "Branimir Mingle Mall, 10000 Zagreb",
+            "openingHours": [
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "MON"
+                },
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "TUE"
+                },
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "WED"
+                },
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "THU"
+                },
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "FRI"
+                },
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "SAT"
+                },
+                {
+                    "from": 10,
+                    "to": 22.5,
+                    "dayInWeek": "SUN"
+                }
+            ],
+            "averageDeliveryTime": 30,
+            "tags": [
+                "ASIAN"
+            ],
+            "meals": [
+                [
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "SOUP"
+                        ],
+                        "name": "Chanko juha",
+                        "description": "Krem juha s jadranskim kozicama, bučom, cvjetačom i kovrčavim keljom",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/dbd5d036-0e2e-11eb-95fe-7eff6921ca89_umami_product_7.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "SOUP"
+                        ],
+                        "name": "Origami juha",
+                        "description": "Bistra pileća juha, wan-tan ravioli i shiitake",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/c4031c2e-0e2f-11eb-a1d1-f62e96220bb9_umami_product_2.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "SOUP"
+                        ],
+                        "name": "Kiselo-ljuta juha",
+                        "description": "Pikantno kiselkasta juha sa shiitake gljivama i tofuom",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/833d3448-0ed1-11eb-8b2c-fe8c4d367fea_umami_product_17.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Bunsi",
+                        "description": "2 jastučića kuhana na pari s piletinom, chilli kupusom, hrskavom koricom, slatko-ljutim umakom i mladim lukom",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/64652a4e-0e2c-11eb-bae7-f6eb37439eb7_umami_product_71.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "WOK"
+                        ],
+                        "name": "Samurai wok",
+                        "description": "Wok rezanci s junetinom, povrćem, slatko-ljutim umakom i sezamovim uljem\n\n*Wok rezanci ne sadrže jaja i mlijeko",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/1e04fee2-0d39-11eb-961b-a27a2cd91fb7_umami_product_77.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "WOK"
+                        ],
+                        "name": "Thai noodles",
+                        "description": "Wok rezanci s piletinom, povrćem, gljivama, slatko-kiselim umakom\n\n*Wok rezanci ne sadrže jaja i mlijeko",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/114a4338-0d39-11eb-84b4-dab08bb1613f_umami_product_75.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "WOK"
+                        ],
+                        "name": "Pad thai",
+                        "description": "Wok rezanci, jadranske kozice, tofu, jaje, klice, kikiriki, limeta\n\n*Wok rezanci ne sadrže jaja i mlijeko",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/287419f8-0d39-11eb-bdbf-3e21a1ae4d9c_umami_product_79.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP",
+                            "WOK"
+                        ],
+                        "name": "Veggy noodles",
+                        "description": "Wok rezanci s povrćem, gljivama, tofuom, umakom od soje i đumbira i sezamom\n\n*Prikladno za osobe na vegeterijanskoj prehrani\n*Wok rezanci ne sadrže jaja i mlijeko",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/433b0f9e-0d39-11eb-a982-4a0da5fb384f_umami_product_81.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Katsu curry",
+                        "description": "Hrskavi svinjski odrezak u panco mrvicama s curry umakom, basmati rižom i kimchi",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/ccf78070-0d37-11eb-9721-2add5261d8f0_umami_product_46.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Katsu piletina",
+                        "description": "Hrskavi pileći file u panco mrvicama s tonkatsu umakom, basmati rižom i kimchi",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/c1835e9e-0d37-11eb-bc54-a27a2cd91fb7_umami_product_44.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Yakitori",
+                        "description": "Po odabiru 6 ili 4 ražnjića od piletine, teriyaki umak, prženi chilli krumpirići, sezam",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/a93f4abe-0d37-11eb-abbf-3e6d7d767d75_umami_product_41.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Korokke",
+                        "description": "Kroketi od povrća s gljivama i sirom, sezonske salate, umak od začinskog bilja\n*Prikladno za osobe na vegeterijanskoj prehrani",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/5c3171c4-0d42-11eb-8076-16cc7c1392b3_umami_product_2990.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Chilli lignje",
+                        "description": "Hrskave lignje s čilijem, slatko-kiseli umak, limeta",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/c2d579a2-0d38-11eb-a5c5-e203f56a4f00_umami_product_66.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Gyoza",
+                        "description": "3 komada prženih raviola s kupusom i svinjetinom, slatko-kiseli umak",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/73966dca-0d37-11eb-8f0a-be2477b6fa4f_umami_product_33.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Ping pong",
+                        "description": "Mesne okruglice u rendang umaku s basmati rižom i prženim lukom",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/3742d466-0d38-11eb-85c2-6253411de4f0_umami_product_55.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Indy",
+                        "description": "Pileći curry s kokosovim mlijekom, kikirikijem i basmati rižom",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/423c2b56-0d38-11eb-b227-761048e6c492_umami_product_53.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Stir-fry",
+                        "description": "Stir-fry junetina u premium oyster umaku s povrćem, shiitake gljivama i basmati rižom",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/4db5e148-0d38-11eb-bb1f-0ef2d035cde1_umami_product_83.jpeg"
+                    }
+                ],
+                [
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Katsu bowl",
+                        "description": "Sezonske salate, mini katsu piletina, avokado, svježa rajčica, parmezan, jogurt-mayo dressing",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/7fa07e94-0d37-11eb-9f5e-1ef4dfb54fec_umami_product_38.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Safari bowl",
+                        "description": "Sezonske salate, pečena cikla, falafel, hummus, feta sir, tortilja, jogurt-tahini dressing\n*Prikladno za osobe na vegeterijanskoj prehrani",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/ebe26bf8-0d37-11eb-addd-da316665c64a_umami_product_49.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Bonsai",
+                        "description": "Brokula, baby špinat, kvinoja, slanutak, dimljeni tofu, paprika, mrkva, edamame, sjemenke, maslinovo ulje, limunov sok\n*Prikladno za osobe na vegeterijanskoj i veganskoj prehrani\n*gf",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/3a31df9c-0d37-11eb-80b4-1ef4dfb54fec_umami_product_25.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Superfood",
+                        "description": "Marinirani kelj, kvinoja, slanutak, dimljeni tofu, paprika, edamame, sjemenke, maslinovo ulje, limun\n*Prikladno za osobe na vegeterijanskoj i veganskoj prehrani\n*gf",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/19bd9d50-0d37-11eb-88a8-761048e6c492_umami_product_22.jpeg"
+                    },
+                    {
+                        "tags": [
+                            "CHEAP"
+                        ],
+                        "name": "Kimchi",
+                        "description": "Fermentirani kupus, mrkva, mladi luk, marinada\nod koreanskog chillija\n*gf",
+                        "price": 28,
+                        "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f8036745c39189dda8529a7/68f9bdb2-0d38-11eb-bda8-626332dc0f26_umami_product_63.jpeg"
                     }
                 ]
             ]
