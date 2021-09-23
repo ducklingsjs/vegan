@@ -1,5 +1,7 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { bufferCount, map, shareReplay, tap } from 'rxjs/operators';
+import { Component, ChangeDetectionStrategy, OnDestroy } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { BehaviorSubject, Subject } from 'rxjs';
+import { bufferCount, map, shareReplay, switchMap, takeUntil, tap } from 'rxjs/operators';
 import { RestaurantService } from 'src/app/services/restaurant/restaurant.service';
 
 @Component({
@@ -10,7 +12,8 @@ import { RestaurantService } from 'src/app/services/restaurant/restaurant.servic
 })
 export class FeelingLuckyComponent {
 
-  restaurant$ = this.restaurant.restaurants().pipe(
+  restaurant$ = this.restaurant.refreshLucky$.pipe(
+    switchMap(() => this.restaurant.restaurants()),
     map((restaurants) => restaurants.restaurants[Math.floor(Math.random() * restaurants.restaurants?.length)]),
     shareReplay(1),
   );
@@ -20,5 +23,5 @@ export class FeelingLuckyComponent {
     shareReplay(1),
   );
 
-  constructor(private restaurant: RestaurantService) { }
+  constructor(private restaurant: RestaurantService) {}
 }
