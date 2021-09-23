@@ -26,7 +26,6 @@ export class QuestionComponent implements OnDestroy, OnInit {
     private cfr: ComponentFactoryResolver,
     private viewContainerRef: ViewContainerRef,
     private questions: QuestionsService,
-    private cd: ChangeDetectorRef,
   ) { }
 
   ngOnInit(): void {
@@ -35,8 +34,8 @@ export class QuestionComponent implements OnDestroy, OnInit {
       distinctUntilChanged(),
       switchMap((index) => {
         return this.questions.questions$.pipe(
-          map((questions) => questions[index]),
-          switchMap((question) => {
+          switchMap((questions) => {
+            const question = questions[index];
             this.viewContainerRef.clear();
             const component = question.type === 'single' ? SingleComponent : MultiComponent;
             const factory = this.cfr.resolveComponentFactory(component);
@@ -45,7 +44,7 @@ export class QuestionComponent implements OnDestroy, OnInit {
             componentInstance.hostView.detectChanges();
             return componentInstance.instance.answer.pipe(
               tap((result) => this.questions.storeResult(index, [question, result])),
-              switchMap(() => this.questions.openQuestion(index + 1)),
+              switchMap(() => questions.length < index - 1 ? this.questions.openQuestion(index + 1) : this.questions.finish()),
             )
           })
         )

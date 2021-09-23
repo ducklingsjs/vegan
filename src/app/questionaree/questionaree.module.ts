@@ -10,6 +10,7 @@ import { SingleComponent } from './question/single/single.component';
 import { MultiComponent } from './question/multi/multi.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
+import { FinishLineComponent } from './finish-line/finish-line.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
     QuestionComponent,
     SingleComponent,
     MultiComponent,
+    FinishLineComponent,
   ],
   imports: [
     CommonModule,
