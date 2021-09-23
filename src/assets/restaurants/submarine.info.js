@@ -9,6 +9,7 @@ const restaurantInfo = {
     { from: 12, to: 18, dayInWeek: "SUN" },
   ],
   averageDeliveryTime: 45,
+  inPerson: false,
   tags: [],
 };
 

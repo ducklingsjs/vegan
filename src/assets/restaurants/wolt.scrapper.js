@@ -12,12 +12,14 @@ function scrapeRestaurant(restaurantInfo, sectionInfo) {
     'p[class^="VenueHeroBanner__Description"]'
   ).textContent;
 
+  const mealsPerSection = sectionInfo.map(([number, tags]) => scrapeSection(number, tags));
+
   return {
     name,
     description,
     address,
     ...restaurantInfo,
-    meals: sectionInfo.map(([number, tags]) => scrapeSection(number, tags)),
+    meals: [].concat.apply([], mealsPerSection),
   };
 }
 
@@ -53,10 +55,10 @@ function getMealInfo(mealElement, sectionTags) {
 
   if (price < 30) {
     tags.push("CHEAP");
-  }
-
-  if (price > 60) {
+  } else if (price > 50) {
     tags.push("EXPENSIVE");
+  } else {
+    tags.push("REGULAR");
   }
 
   if (name.toLowerCase().includes("vege") && !tags.includes("VEGETERIAN")) {

@@ -1,0 +1,63 @@
+{
+    "name": "Magazinska klet",
+    "description": "Pri staroj smokvi",
+    "address": "Strojarska cesta 32",
+    "inPerson": true,
+    "openingHours": [
+        {
+            "from": 9,
+            "to": 23,
+            "dayInWeek": "MON"
+        },
+        {
+            "from": 9,
+            "to": 23,
+            "dayInWeek": "TUE"
+        },
+        {
+            "from": 9,
+            "to": 23,
+            "dayInWeek": "WED"
+        },
+        {
+            "from": 9,
+            "to": 23,
+            "dayInWeek": "THU"
+        },
+        {
+            "from": 9,
+            "to": 23,
+            "dayInWeek": "FRI"
+        },
+        {
+            "from": 11,
+            "to": 23,
+            "dayInWeek": "SAT"
+        },
+        {
+            "from": 12,
+            "to": 20,
+            "dayInWeek": "SUN"
+        }
+    ],
+    "averageDeliveryTime": 15,
+    "tags": [
+        "BALKAN"
+    ],
+    "meals": [
+        {
+            "tags": [
+                "EXPENSIVE"
+            ],
+            "name": "Punjena vješalica",
+            "price": 55
+        },
+        {
+            "tags": [
+                "REGULAR"
+            ],
+            "name": "Lignje sa žara",
+            "price": 50
+        }
+    ]
+}

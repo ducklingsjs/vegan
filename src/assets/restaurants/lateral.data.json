@@ -1,0 +1,98 @@
+{
+    "name": "Trattoria Laterale",
+    "description": "Talijanski restoran",
+    "address": "Strojarska cesta 22, 10000 Zagreb",
+    "inPerson": true,
+    "openingHours": [
+        {
+            "from": 11,
+            "to": 21,
+            "dayInWeek": "MON"
+        },
+        {
+            "from": 11,
+            "to": 21,
+            "dayInWeek": "TUE"
+        },
+        {
+            "from": 11,
+            "to": 21,
+            "dayInWeek": "WED"
+        },
+        {
+            "from": 11,
+            "to": 21,
+            "dayInWeek": "THU"
+        },
+        {
+            "from": 11,
+            "to": 22,
+            "dayInWeek": "FRI"
+        }
+    ],
+    "averageDeliveryTime": 15,
+    "tags": [
+        "ITALIAN"
+    ],
+    "meals": [
+        {
+            "tags": [
+                "REGULAR"
+            ],
+            "name": "Mesne okruglice u umaku od rajčice i pire krumpir",
+            "price": 50
+        },
+        {
+            "tags": [
+                "REGULAR"
+            ],
+            "name": "Pileći file sa žara sa pirjanim povrćem i mahunarkama",
+            "price": 50
+        },
+        {
+            "tags": [
+                "REGULAR"
+            ],
+            "name": "Pileći zabatak sa rižotom od povrća i dimljenim sirom",
+            "price": 50
+        },
+        {
+            "tags": [
+                "EXPENSIVE"
+            ],
+            "name": "Lungić u umaku od gljiva sa polpetama od povrća",
+            "price": 55
+        },
+        {
+            "tags": [
+                "REGULAR"
+            ],
+            "name": "Pohana mozzarella, salata od kus kusa i kvinoje",
+            "price": 50
+        },
+        {
+            "tags": [
+                "PIZZA",
+                "REGULAR"
+            ],
+            "name": "Pizza Margherita zvana Megi",
+            "price": 48
+        },
+        {
+            "tags": [
+                "PIZZA",
+                "EXPENSIVE"
+            ],
+            "name": "Pizza sirova - Sirela",
+            "price": 52
+        },
+        {
+            "tags": [
+                "PIZZA",
+                "EXPENSIVE"
+            ],
+            "name": "Pizza slavonska - Slavonika",
+            "price": 60
+        }
+    ]
+}
