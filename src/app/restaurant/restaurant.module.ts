@@ -6,6 +6,8 @@ import { RestaurantComponent } from './restaurant.component';
 import { ListComponent } from './list/list.component';
 import { ContainerModule } from '../components/container/container.module';
 import { MatListModule } from '@angular/material/list';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { MatListModule } from '@angular/material/list';
     RestaurantRoutingModule,
     MatListModule,
     ContainerModule,
+    MatTooltipModule,
+    MatChipsModule,
   ]
 })
 export class RestaurantModule { }

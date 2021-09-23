@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Subject } from 'rxjs';
 import { map, switchMap, distinctUntilChanged, takeUntil, tap } from 'rxjs/operators';
 import { QuestionsService } from 'src/app/services/questions/questions.service';
+import { RestaurantService } from 'src/app/services/restaurant/restaurant.service';
 import { MultiComponent } from './multi/multi.component';
 import { SingleComponent } from './single/single.component';
 
@@ -26,7 +27,7 @@ export class QuestionComponent implements OnDestroy, OnInit {
     private cfr: ComponentFactoryResolver,
     private viewContainerRef: ViewContainerRef,
     private questions: QuestionsService,
-  ) { }
+  ) {}
 
   ngOnInit(): void {
     this.activatedRoute.paramMap.pipe(

@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { QuestionsService } from 'src/app/services/questions/questions.service';
 
 @Component({
   selector: 'app-finish-line',
@@ -7,5 +8,7 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FinishLineComponent {
-  constructor() { }
+  result$ = this.question.completedQuestionnaire$;
+
+  constructor(private question: QuestionsService) { }
 }

@@ -1,13 +1,19 @@
 <app-container>
+  <p *ngIf="questionarre$ | async">
+    You filled in questionarre, your results are personalized.
+  </p>
   <section class="restaurant" *ngFor="let restaurant of restaurants$ | async">
     <h2 class="title">{{ restaurant.name }}</h2>
     <span class="address">{{ restaurant.address }}</span>
     <p>{{ restaurant.description }}</p>
     <mat-list class="vegan-app">
       <mat-list-item *ngFor="let meal of restaurant.meals" role="listitem">
-        <span class="name">
-          {{ meal.name }}
-        </span>
+        <div class="description">
+          <img class="meal-image" [src]="meal.image" alt="" />
+          <span class="name" [matTooltip]="meal.description">
+            {{ meal.name }}
+          </span>
+        </div>
         <span class="cost"> HRK {{ meal.price }} </span>
       </mat-list-item>
     </mat-list>

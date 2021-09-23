@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { QuestionsService } from '../services/questions/questions.service';
 
 @Component({
   selector: 'app-restaurant',
@@ -6,7 +7,4 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./restaurant.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class RestaurantComponent {
-
-  constructor() { }
-}
+export class RestaurantComponent {}

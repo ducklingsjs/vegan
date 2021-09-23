@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
 }
+.vegan-app.mat-list .mat-list-item {
+  height: auto;
+  min-height: 48px;
+}
 
 /* You can add global styles to this file, and also import other style files */
 

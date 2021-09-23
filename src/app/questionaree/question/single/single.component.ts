@@ -1,6 +1,5 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { MatListOption } from '@angular/material/list';
-import { QuestionsService } from 'src/app/services/questions/questions.service';
 
 @Component({
   selector: 'app-question-single',

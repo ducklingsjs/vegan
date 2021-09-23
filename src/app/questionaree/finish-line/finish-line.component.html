@@ -1,1 +1,18 @@
-<p>finish-line works!</p>
+<app-container>
+  <p>finish-line works!</p>
+  <h1>Congratz!</h1>
+  <button mat-flat-button color="primary" routerLink="/restaurants">
+    View suggested meals
+  </button>
+  <h2>Your answers</h2>
+  <mat-list role="list" class="vegan-app">
+    <mat-list-item *ngFor="let record of result$ | async | keyvalue">
+      <span>
+        {{ record.value[0].title }}
+      </span>
+      <span>
+        {{ record.value[1]?.length ? (record.value[1] | json) : "none" }}
+      </span>
+    </mat-list-item>
+  </mat-list>
+</app-container>
