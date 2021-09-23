@@ -36,10 +36,8 @@
                     "dayInWeek": "SAT"
                 }
             ],
-            "tags": [
-                "BAMBILIKES",
-                "DELIVERY"
-            ],
+            "inPersonEating": false,
+            "tags": ["BAMBILIKES", "KOREAN"],
             "meals": [
                 {
                     "tags": [
