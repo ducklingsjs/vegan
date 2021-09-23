@@ -1,0 +1,5 @@
+:host {
+  display: block;
+  width: calc(clamp(max(320px, 100%), 75vw, 1024px) - 20px);
+  margin: 0 10px;
+}
