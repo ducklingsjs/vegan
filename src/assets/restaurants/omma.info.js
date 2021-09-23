@@ -8,7 +8,7 @@ const restaurantInfo = {
     { from: 11, to: 18, dayInWeek: "SAT" },
   ],
   averageDeliveryTime: 45,
-  inPerson: false,
+  isDelivering: true,
   tags: ["BAMBILIKES", "ASIAN"],
 };
 

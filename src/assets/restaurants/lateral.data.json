@@ -2,7 +2,7 @@
     "name": "Trattoria Laterale",
     "description": "Talijanski restoran",
     "address": "Strojarska cesta 22, 10000 Zagreb",
-    "inPerson": true,
+    "isDelivering": false,
     "openingHours": [
         {
             "from": 11,

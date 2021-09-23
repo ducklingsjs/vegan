@@ -2,7 +2,7 @@
     "name": "Magazinska klet",
     "description": "Pri staroj smokvi",
     "address": "Strojarska cesta 32",
-    "inPerson": true,
+    "isDelivering": false,
     "openingHours": [
         {
             "from": 9,

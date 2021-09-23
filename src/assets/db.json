@@ -1114,6 +1114,367 @@
                     "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c52dc1dd97905000af8bf5f/ad7eedc4-b164-11eb-881f-f2ed728396b6_submarine_greek_summer___s_piletinom.jpeg"
                 }
             ]
+        },
+        {
+            "name": "Yummy Pizza",
+            "description": "In mood for pizza",
+            "address": "Dane Dujića 5, 10000 Zagreb",
+            "openingHours": [
+                {
+                    "from": 12,
+                    "to": 22,
+                    "dayInWeek": "MON"
+                },
+                {
+                    "from": 12,
+                    "to": 22,
+                    "dayInWeek": "TUE"
+                },
+                {
+                    "from": 12,
+                    "to": 22,
+                    "dayInWeek": "WED"
+                },
+                {
+                    "from": 12,
+                    "to": 22,
+                    "dayInWeek": "THU"
+                },
+                {
+                    "from": 12,
+                    "to": 22,
+                    "dayInWeek": "FRI"
+                }
+            ],
+            "averageDeliveryTime": 60,
+            "isDelivering": true,
+            "tags": [
+                "ITALIAN"
+            ],
+            "meals": [
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Kafanska 🇮🇹",
+                    "description": "Pelat, gouda, mozzarella, šunka, panceta, kulen, cherry rajčice, šampinjoni, masline, origano, zapečeni rub s mozzarellom i pelatom",
+                    "price": 37.1,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/1a474948-40cd-11e9-b94b-0a5864614c5b_YummyPizza_product-9944.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Sourdough pizza velika 2u1",
+                    "description": "Velika pizza, pola-pola. Jedna pizza, dva okusa\n\n*slika je simbolična (ne prikazuje stvarni izgled pizze)",
+                    "price": 64,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c7e5350266462000c62a2be/71b09154-cf7c-11eb-a3c6-3a229a10389f_d27933d4_40cb_11e9_95e1_0a5864600b4d_yummypizza_product_9891.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Sourdough pizza Fiore 2u1",
+                    "description": "Pizza Fiore, pola-pola. Jedna pizza, dva okusa\n\n*slika je simbolična (ne prikazuje stvarni izgled pizze)",
+                    "price": 50,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c7e5350266462000c62a2be/6e4319e6-d018-11eb-8f1d-92e1daa7b891_7f7c3c28_40ce_11e9_ba94_0a586461660e_yummypizza_product_0079.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Sourdough pizza Fiore 3u1",
+                    "description": "Pizza Fiore, na tri djela. Jedna pizza, tri okusa\n\n*slika je simbolična (ne prikazuje stvarni izgled pizze)",
+                    "price": 54,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c7e5350266462000c62a2be/76cde5a0-d018-11eb-8524-c65a77fab3cb_7f7c3c28_40ce_11e9_ba94_0a586461660e_yummypizza_product_0079.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Pizza pub",
+                    "description": "Vrhnje, mozzarella, gouda, salami, panceta, zapečeni rub s vrhnjem i mozzarellom, origano, yummy umak po želji",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3f0f8f60-40cd-11e9-b2ce-0a5864617104_YummyPizza_product-9957.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Yummy",
+                    "description": "Pelat, sir, inćuni, šunka, kapari, artičoke, sušene rajčice, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/de2cff8e-40cc-11e9-ac56-0a586461700b_YummyPizza_product-9937.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Istriana",
+                    "description": "Pelat, sir, pršut, cherry rajčice, rukola, masline, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/f079dfc2-40cc-11e9-a7ef-0a5864616322_YummyPizza_product-9882.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Kafanska",
+                    "description": "Pelat, gouda, mozzarella, šunka, panceta, kulen, cherry rajčice, šampinjoni, masline, origano, zapečeni rub s mozzarellom i pelatom",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/1a474948-40cd-11e9-b94b-0a5864614c5b_YummyPizza_product-9944.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Mexicana",
+                    "description": "Pelat, ljuta salsa, sir, ljuta kobasica, paprika, kukuruz, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/0355df42-40cd-11e9-89b4-0a5864617104_YummyPizza_product-9951.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Retro pizza",
+                    "description": "Pelat, sir, gorgonzola, salami, paprika, masline, zapečeni rub s mozzarellom i pelatom, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/2f9b7314-40cd-11e9-8a87-0a5864613c98_YummyPizza_product-9947.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Slavonska",
+                    "description": "Pelat, šunka, sir, panceta, kulen, luk, šampinjoni, ljuti feferoni, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/a0242cda-40cc-11e9-b1b3-0a5864616322_YummyPizza_product-9923.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Fantasia",
+                    "description": "Pelat, sir, šunka, panceta, paprika, šampinjoni, vrhnje, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/913a0258-40cc-11e9-9ae2-0a586461700b_YummyPizza_product-9918.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Al Tonno",
+                    "description": "Pelat, sir, tuna, luk",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/bca21598-40cc-11e9-83db-0a5864614c5b_YummyPizza_product-9932.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Gamberi",
+                    "description": "Pelat, sir, gamberi, origano, masline",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/16aba66e-40cb-11e9-9262-0a5864600b50_YummyPizza_product-9926.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Inćuni",
+                    "description": "Pelat, sir, inćuni, cherry rajčice, kapari, masline, origano",
+                    "price": 53,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/cf3d12b6-40cc-11e9-8202-0a586461660e_YummyPizza_product-9934.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Rustica",
+                    "description": "Pelat, sir, panceta, šunka, origano",
+                    "price": 48,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/7f7f9802-40cc-11e9-a2fe-0a5864614c5f_YummyPizza_product-9913.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Diavola",
+                    "description": "Pelat, sir, ljuti feferoni, ljuta kobasica, šunka, origano",
+                    "price": 48,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/3a88a09a-40cc-11e9-9cf2-0a586461059e_YummyPizza_product-9908.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Capriciosa",
+                    "description": "Pelat, sir, šunka, šampinjoni, origano",
+                    "price": 44,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/d27933d4-40cb-11e9-95e1-0a5864600b4d_YummyPizza_product-9891.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Quatro formaggi",
+                    "description": "Pelat, 4 vrste sira, origano",
+                    "price": 44,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/6c3c2bb6-40cc-11e9-83f7-0a5864616c31_YummyPizza_product-9898__1_.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Salami",
+                    "description": "Pelat, sir, salami, origano",
+                    "price": 44,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/ff667474-40cb-11e9-83e8-0a5864616c31_YummyPizza_product-9905.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR",
+                        "VEGETERIAN"
+                    ],
+                    "name": "Vegetariana",
+                    "description": "Pelat, sir, šampinjoni, paprika, kukuruz, tikvice, origano",
+                    "price": 44,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/eb147020-40cb-11e9-a936-0a586461660e_YummyPizza_product-9895.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Siciliana",
+                    "description": "Pelat, sir, šunka, origano",
+                    "price": 42,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/93683e92-40cb-11e9-aade-0a5864600b4d_YummyPizza_product-9887.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Funghi",
+                    "description": "Pelat, sir, šampinjoni, origano",
+                    "price": 42,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/8199a728-40cb-11e9-b450-0a586461059e_YummyPizza_product-9878.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Margherita",
+                    "description": "Pelat, sir, origano",
+                    "price": 42,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/56e036aa-40cb-11e9-9428-0a5864614c5b_YummyPizza_product-9876.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Pizza Fiore Mexicana",
+                    "description": "Sourdough tijesto, pelat, gouda, pepperoni salama, meksički umak, crveni grah, kukuruz, paprika, mozzarella, yummy umak po želji",
+                    "price": 55,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/7f7c3c28-40ce-11e9-ba94-0a586461660e_YummyPizza_product-0079.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Pizza Fiore Pet Sira",
+                    "description": "Sourdough tijesto, pelat, gouda, parmezan, dimsi, gorgonzola, mozzarella, yummy umak po želji",
+                    "price": 55,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/ea10dc70-40cd-11e9-86da-0a5864617403_YummyPizza_product-9985.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Pizza Fiore Tuna",
+                    "description": "Sourdough tijesto, pelat, gouda, tuna, luk, kapari, masline, mozzarella, yummy umak po želji",
+                    "price": 55,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/9bbd061a-40ce-11e9-ab1a-0a5864616c31_YummyPizza_product-0084.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "EXPENSIVE"
+                    ],
+                    "name": "Pizza Fiore Gamberi",
+                    "description": "Sourdough tijesto, pelat, gouda, gamberi, masline, mozzarella, yummy umak po želji",
+                    "price": 55,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/66077316-40ce-11e9-a298-0a5864613c98_YummyPizza_product-0075.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Pizza Fiore Margherita",
+                    "description": "Sourdough tijesto, pelat, gouda, cherry rajčica, mozzarella, yummy umak po želji",
+                    "price": 46,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/b9794124-40cd-11e9-80a7-0a5864616322_YummyPizza_product-9969.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Pizza Fiore Siciliana",
+                    "description": "Sourdough tijesto, pelat, gouda, kuhana šunka, mozzarella, yummy umak po želji",
+                    "price": 46,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/7f40699c-40cd-11e9-9253-0a5864617104_YummyPizza_product-9967.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR"
+                    ],
+                    "name": "Pizza Fiore Pepperoni",
+                    "description": "Sourdough tijesto, pelat, gouda, pepperoni, salama, paprika, mozzarella, yummy umak po želji",
+                    "price": 46,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/c9142b3a-40cd-11e9-a83c-0a5864617007_YummyPizza_product-9976.jpeg"
+                },
+                {
+                    "tags": [
+                        "PIZZA",
+                        "REGULAR",
+                        "VEGETERIAN"
+                    ],
+                    "name": "Pizza Fiore Vegeteriana",
+                    "description": "Sourdough tijesto, pelat, gouda, povrće, mozzarella, yummy umak po želji",
+                    "price": 46,
+                    "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/da6c4458-40cd-11e9-937c-0a586461700b_YummyPizza_product-9979.jpeg"
+                }
+            ]
         }
     ]
 }
