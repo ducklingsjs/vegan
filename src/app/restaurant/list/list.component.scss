@@ -1,3 +1,15 @@
+.title{
+    margin: 0;
+  }
+
+.address {
+  color: #8e8e8e;
+}
+
 .cost {
   white-space: nowrap;
+}
+
+.restaurant + .restaurant {
+  margin-top: 24px;
 }

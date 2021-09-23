@@ -42,7 +42,7 @@
                 }
             ],
             "averageDeliveryTime": 30,
-            "inPerson": false,
+            "isDelivering": true,
             "tags": [],
             "meals": [
                 {
@@ -248,7 +248,7 @@
             "name": "Trattoria Laterale",
             "description": "Talijanski restoran",
             "address": "Strojarska cesta 22, 10000 Zagreb",
-            "inPerson": true,
+            "isDelivering": false,
             "openingHours": [
                 {
                     "from": 11,
@@ -346,7 +346,7 @@
             "name": "Magazinska klet",
             "description": "Pri staroj smokvi",
             "address": "Strojarska cesta 32",
-            "inPerson": true,
+            "isDelivering": false,
             "openingHours": [
                 {
                     "from": 9,
@@ -442,7 +442,7 @@
                 }
             ],
             "averageDeliveryTime": 45,
-            "inPerson": false,
+            "isDelivering": true,
             "tags": [
                 "BAMBILIKES",
                 "ASIAN"
@@ -645,7 +645,7 @@
                 }
             ],
             "averageDeliveryTime": 30,
-            "inPerson": false,
+            "isDelivering": true,
             "tags": [
                 "ASIAN"
             ],
@@ -899,7 +899,7 @@
                 }
             ],
             "averageDeliveryTime": 45,
-            "inPerson": false,
+            "isDelivering": true,
             "tags": [],
             "meals": [
                 {
