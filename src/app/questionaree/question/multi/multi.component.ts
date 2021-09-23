@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-question-multi',
@@ -6,12 +6,14 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
   styleUrls: ['./multi.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MultiComponent {
+export class MultiComponent implements OnInit {
   @Input()
   question: any;
 
   @Output()
   answer = new EventEmitter<any>();
 
-  constructor() { }
+  ngOnInit() {
+    console.log(this);
+  }
 }

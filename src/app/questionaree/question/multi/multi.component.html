@@ -1,1 +1,7 @@
-<p>multi works!</p>
+<app-container>
+  <mat-list>
+    <mat-list-item *ngFor="let opt of question.options" role="listitem">
+      {{ opt }}
+    </mat-list-item>
+  </mat-list>
+</app-container>

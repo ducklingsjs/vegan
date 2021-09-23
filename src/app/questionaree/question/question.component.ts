@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, ComponentFactoryResolver, ViewContainerRef, OnDestroy } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, ComponentFactoryResolver, ViewContainerRef, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subject } from 'rxjs';
 import { map, switchMap, distinctUntilChanged, takeUntil, tap } from 'rxjs/operators';
@@ -26,6 +26,7 @@ export class QuestionComponent implements OnDestroy, OnInit {
     private cfr: ComponentFactoryResolver,
     private viewContainerRef: ViewContainerRef,
     private questions: QuestionsService,
+    private cd: ChangeDetectorRef,
   ) { }
 
   ngOnInit(): void {
@@ -41,6 +42,7 @@ export class QuestionComponent implements OnDestroy, OnInit {
             const factory = this.cfr.resolveComponentFactory(component);
             const componentInstance = this.viewContainerRef.createComponent(factory);
             componentInstance.instance.question = question;
+            componentInstance.hostView.detectChanges();
             return componentInstance.instance.answer.pipe(
               tap((result) => this.questions.storeResult(index, [question, result])),
               switchMap(() => this.questions.openQuestion(index + 1)),
