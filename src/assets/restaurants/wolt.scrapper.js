@@ -17,7 +17,7 @@ function scrapeRestaurant(restaurantInfo, sectionInfo) {
     description,
     address,
     ...restaurantInfo,
-    meals: sectionInfo.map(([number, tags]) => scrapeSection(number, tags))
+    meals: sectionInfo.map(([number, tags]) => scrapeSection(number, tags)),
   };
 }
 
@@ -39,7 +39,7 @@ function getMealInfo(mealElement, sectionTags) {
     'p[class^="MenuItem-module__description"]'
   ).textContent;
   const price = parseFloat(
-    document
+    mealElement
       .querySelector('span[class^="MenuItem-module__price"]')
       .textContent.replace("HRK ", "")
   );
@@ -47,16 +47,16 @@ function getMealInfo(mealElement, sectionTags) {
     .querySelector('div[class^="ImageWithTransition-module__image"]')
     .style.backgroundImage.split('"')[1];
 
+  if (sectionTags.length) {
+    tags.push(...sectionTags);
+  }
+
   if (price < 30) {
     tags.push("CHEAP");
   }
 
-  if (price > 50) {
+  if (price > 60) {
     tags.push("EXPENSIVE");
-  }
-
-  if (sectionTags.length) {
-    tags.push(...sectionTags);
   }
 
   if (name.toLowerCase().includes("vege") && !tags.includes("VEGETERIAN")) {
