@@ -1,11 +1,15 @@
 <app-container>
   <h2>{{ question.title }}</h2>
   <mat-selection-list #opts>
-    <mat-list-option *ngFor="let opt of question.options">
+    <mat-list-option *ngFor="let opt of question.options" [value]="opt">
       {{ opt }}
     </mat-list-option>
   </mat-selection-list>
-  <button mat-flat-button color="primary" (click)="answer.emit(opts.selected)">
+  <button
+    mat-flat-button
+    color="primary"
+    (click)="submit(opts.selectedOptions.selected)"
+  >
     Submit
   </button>
 </app-container>

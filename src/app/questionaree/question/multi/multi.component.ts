@@ -1,4 +1,5 @@
 import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter, OnInit } from '@angular/core';
+import { MatListOption } from '@angular/material/list';
 
 @Component({
   selector: 'app-question-multi',
@@ -12,4 +13,8 @@ export class MultiComponent {
 
   @Output()
   answer = new EventEmitter<any>();
+
+  submit(opts: Array<MatListOption>) {
+    this.answer.emit(opts.map(x => x.value));
+  }
 }

@@ -43,8 +43,9 @@ export class QuestionComponent implements OnDestroy, OnInit {
             componentInstance.instance.question = question;
             componentInstance.hostView.detectChanges();
             return componentInstance.instance.answer.pipe(
+              tap(console.log),
               tap((result) => this.questions.storeResult(index, [question, result])),
-              switchMap(() => questions.length < index - 1 ? this.questions.openQuestion(index + 1) : this.questions.finish()),
+              switchMap(() => index < questions.length ? this.questions.openQuestion(index + 1) : this.questions.finish()),
             )
           })
         )
