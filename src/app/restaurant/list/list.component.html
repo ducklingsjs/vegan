@@ -1,1 +1,13 @@
 <p>list works!</p>
+<section *ngFor="let restaurant of restaurants">
+  <h2>{{ restaurant.name }}</h2>
+  <p>{{ restaurant.description }}</p>
+  <mat-list>
+    <mat-list-item *ngFor="let meal of restaurant.meals">
+      <span class="name">
+        {{ meal.name }}
+      </span>
+      <span class="cost"> HRK {{ meal.price }} </span>
+    </mat-list-item>
+  </mat-list>
+</section>

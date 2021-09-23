@@ -5,15 +5,17 @@ import { RestaurantRoutingModule } from './restaurant-routing.module';
 import { RestaurantComponent } from './restaurant.component';
 import { ListComponent } from './list/list.component';
 
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
     RestaurantComponent,
-    ListComponent
+    ListComponent,
   ],
   imports: [
     CommonModule,
-    RestaurantRoutingModule
+    RestaurantRoutingModule,
+    MatListModule,
   ]
 })
 export class RestaurantModule { }
