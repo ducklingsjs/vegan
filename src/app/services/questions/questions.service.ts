@@ -29,4 +29,8 @@ export class QuestionsService {
   storeResult(id: number, result: [any, any]) {
     this.result.set(id, result);
   }
+
+  finish(): Observable<any> {
+    return from(this.router.navigate([`/finish-line`]));
+  }
 }
