@@ -8,11 +8,13 @@ import { ContainerModule } from '../components/container/container.module';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatChipsModule } from '@angular/material/chips';
+import { FeelingLuckyComponent } from './feeling-lucky/feeling-lucky.component';
 
 @NgModule({
   declarations: [
     RestaurantComponent,
     ListComponent,
+    FeelingLuckyComponent,
   ],
   imports: [
     CommonModule,
