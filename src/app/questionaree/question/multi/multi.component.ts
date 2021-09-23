@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-question-multi',
@@ -12,6 +12,4 @@ export class MultiComponent {
 
   @Output()
   answer = new EventEmitter<any>();
-
-  constructor() { }
 }

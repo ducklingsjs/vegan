@@ -1,1 +1,11 @@
-<p>multi works!</p>
+<app-container>
+  <h2>{{ question.title }}</h2>
+  <mat-selection-list #opts>
+    <mat-list-option *ngFor="let opt of question.options">
+      {{ opt }}
+    </mat-list-option>
+  </mat-selection-list>
+  <button mat-flat-button color="primary" (click)="answer.emit(opts.selected)">
+    Submit
+  </button>
+</app-container>

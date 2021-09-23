@@ -8,6 +8,8 @@ import { ContainerModule } from '../components/container/container.module';
 import { QuestionComponent } from './question/question.component';
 import { SingleComponent } from './question/single/single.component';
 import { MultiComponent } from './question/multi/multi.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { MultiComponent } from './question/multi/multi.component';
     QuestionareeRoutingModule,
     MatButtonModule,
     ContainerModule,
+    MatInputModule,
+    MatListModule,
   ]
 })
 export class QuestionareeModule { }
