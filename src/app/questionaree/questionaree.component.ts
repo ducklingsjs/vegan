@@ -1,4 +1,5 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { QuestionsService } from '../services/questions/questions.service';
 
 @Component({
   selector: 'app-questionaree',
@@ -8,9 +9,9 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 })
 export class QuestionareeComponent {
 
-  constructor() { }
+  constructor(private question: QuestionsService) { }
 
   start(): void {
-    alert('started');
+    this.question.start();
   }
 }

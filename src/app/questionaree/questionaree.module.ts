@@ -5,11 +5,17 @@ import { QuestionareeRoutingModule } from './questionaree-routing.module';
 import { QuestionareeComponent } from './questionaree.component';
 import { MatButtonModule } from '@angular/material/button';
 import { ContainerModule } from '../components/container/container.module';
+import { QuestionComponent } from './question/question.component';
+import { SingleComponent } from './question/single/single.component';
+import { MultiComponent } from './question/multi/multi.component';
 
 
 @NgModule({
   declarations: [
-    QuestionareeComponent
+    QuestionareeComponent,
+    QuestionComponent,
+    SingleComponent,
+    MultiComponent,
   ],
   imports: [
     CommonModule,
